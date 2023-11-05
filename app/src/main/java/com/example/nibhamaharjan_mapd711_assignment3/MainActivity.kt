@@ -22,16 +22,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         title="Pizza Choose Location"
-
+        //List View val
         val listView = findViewById<ListView>(R.id.listView)
-
+        //Adding Names of location in array
         val names = arrayOf("Toronto Downtown","Scarborough","Mississauga","North York","Oakville")
-
+        //Populating listview with the array
         val arrayAdapter:ArrayAdapter<String> = ArrayAdapter(
             this,android.R.layout.simple_list_item_1,names
         )
         listView.adapter=arrayAdapter
-
+        //Item click listener
         listView.setOnItemClickListener { adapterview, view, i, l ->
             val name = names[i]
             val placeName = name.toString()
