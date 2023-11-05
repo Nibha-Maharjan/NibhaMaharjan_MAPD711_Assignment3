@@ -1,3 +1,10 @@
+// Name: Nibha Maharjan
+// Student ID: 301282952
+// Name: Saurav Gautam
+// Student ID: 301286980
+// Date Completed: 5th Nov 2023
+// App Desc: Pizza Finder App for Third Assignment
+// This App finds PizzaShop Locations in google map which can be viewed in both Normal View and Satellite View
 package com.example.nibhamaharjan_mapd711_assignment3
 
 import android.content.Intent
